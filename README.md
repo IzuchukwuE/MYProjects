@@ -16,10 +16,12 @@ Timeframe of the study: 2015 - 2017
 - Smothe approach to reduce the imbalanced nature of the dataset. 
 - standard scaler to scale the dataset
 # TestTrain
-- Dataset is split and trained using machine learning algorithms
+- Dataset is split and trained using  logistic regression,
 - dataset is tested and prediction occurs. 
 - Various parameters like precision, f1-score, recall, specificity, sensitivity, accuracy, and MSE are used for comparative analysis
-- The result is tried to improve using ensembles
+- The outcome of these parameters is compared between the different algorithms used to know which performed best
+  # Result
+-   Adaboost and Voting classifiers performed better than logistic regression, Decision Tree etc
 # Conclusion
 - With MSE smaller than 0.0011, both training and testing datasets achieved more than 99 percent accuracy.
 - The end result proved that Adaboost and Voting classifiers showed improved accuracy than some other methods.

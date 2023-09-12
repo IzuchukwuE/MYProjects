@@ -3,6 +3,7 @@
 
 # Overview
 -This is a readme detailing the process of cleaning and investigating prediction output using different algorithms on  Credit Card Fraud dataset. 
+In this project, RandomForest, Decicsion tree, and autoencoder are compared against adaboost,catboost, and voterclasifer
 -The purpose of this project is to improve credit card fraud prediction 
 
 Timeframe of the study: 2015 - 2017
@@ -21,7 +22,7 @@ Timeframe of the study: 2015 - 2017
 - Various parameters like precision, f1-score, recall, specificity, sensitivity, accuracy, and MSE are used for comparative analysis
 - The outcome of these parameters is compared between the different algorithms used to know which performed best
   # Result
--   Adaboost and Voting classifiers performed better than logistic regression, Decision Tree etc
+-   Adaboost and Voting classifiers performed better than RandomForest and Decision Tree
 # Conclusion
 - With MSE smaller than 0.0011, both training and testing datasets achieved more than 99 percent accuracy.
 - The end result proved that Adaboost and Voting classifiers showed improved accuracy than some other methods.
